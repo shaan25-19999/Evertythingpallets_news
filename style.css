@@ -1,23 +1,24 @@
-
 body {
     font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9fefb;
-    color: #102a43;
+    background-color: #F9F9F9;
+    color: #333333;
 }
 
 header {
-    background: linear-gradient(to right, #1b4332, #2d6a4f);
+    background: linear-gradient(to right, #1C3D5A, #66A5AD);
     color: white;
     padding: 2rem;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #D3E3EC;
 }
 
 h1 {
     margin: 0;
     font-size: 2rem;
+    letter-spacing: 0.5px;
 }
 
 main {
@@ -27,33 +28,43 @@ main {
     padding: 2rem;
 }
 
+/* News card styles */
 .news-card {
     background-color: white;
-    border: 1px solid #d1e7dd;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    border: 1px solid #D3E3EC;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .news-card:hover {
-    transform: scale(1.02);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
 .news-card h2 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    color: #1C3D5A;
 }
 
 .news-card p {
     font-size: 0.95rem;
-    color: #555;
+    color: #555555;
+    line-height: 1.5;
 }
 
 .news-card a {
     display: inline-block;
-    margin-top: 0.5rem;
-    color: #1b4332;
+    margin-top: 0.75rem;
+    color: #D4AF37;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.news-card a:hover {
+    color: #1C3D5A;
+    text-decoration: underline;
 }
