@@ -142,13 +142,21 @@ main {
   margin: 2rem 0 1rem;
 }
 
-.home-button img {
-  width: 28px;
-  height: 28px;
-  filter: brightness(0) saturate(100%) invert(18%) sepia(9%) saturate(1401%) hue-rotate(157deg) brightness(96%) contrast(88%);
+.home-button a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #1C3D5A;
+  text-decoration: none;
+  font-size: 0.95rem;
   transition: transform 0.2s ease;
 }
 
-.home-button img:hover {
-  transform: scale(1.1);
+.home-button a:hover {
+  transform: scale(1.05);
+}
+
+.home-button svg {
+  flex-shrink: 0;
 }
