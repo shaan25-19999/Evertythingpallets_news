@@ -132,9 +132,10 @@ main {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.9rem;
-  color: #6b705c;
-  background-color: #1C3D5A;
-  border-top: 1px solid #d1e7dd;
+  color: #EAF6F6; /* soft white-blue for readability */
+  background: linear-gradient(to right, #1C3D5A, #66A5AD);
+  border-top: 1px solid #D3E3EC;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
 }
 /* HOME BUTTON */
 .home-link {
