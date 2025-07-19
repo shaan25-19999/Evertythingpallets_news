@@ -75,3 +75,15 @@ main {
     color: #1C3D5A;
     text-decoration: underline;
 }
+.tag {
+    display: inline-block;
+    background-color: #d8f3dc;
+    color: #1b4332;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
