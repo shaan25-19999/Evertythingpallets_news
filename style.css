@@ -128,13 +128,13 @@ main {
 }
 
 /* FOOTER */
-.footer {
-  background: #1C3D5A;
-  color: white;
-  padding: 20px;
+.site-footer {
   text-align: center;
+  padding: 2rem 1rem;
   font-size: 0.9rem;
-  margin-top: 40px;
+  color: #6b705c;
+  background-color: #1C3D5A;
+  border-top: 1px solid #d1e7dd;
 }
 /* HOME BUTTON */
 .home-link {
