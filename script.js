@@ -7,10 +7,12 @@ fetch('news.json')
       const card = document.createElement('div');
       card.className = 'news-card';
       card.innerHTML = `
-        <h2>${item.title}</h2>
-        <p><strong>${item.date}</strong></p>
-        <p>${item.summary}</p>
-        <a href="${item.link}" target="_blank">Read More →</a>
+  <div class="tag">${item.tag}</div>
+  <h2>${item.title}</h2>
+  <p><strong>${item.date}</strong></p>
+  <p>${item.summary}</p>
+  <a href="${item.link}" target="_blank">Read More →</a>
+`;
       `;
       container.appendChild(card);
     });
