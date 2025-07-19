@@ -137,26 +137,27 @@ main {
   border-top: 1px solid #d1e7dd;
 }
 /* HOME BUTTON */
-.home-button {
-  text-align: center;
-  margin: 2rem 0 1rem;
-}
-
-.home-button a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
+.home-link {
+  font-size: 1rem;
   color: #1C3D5A;
   text-decoration: none;
-  font-size: 0.95rem;
-  transition: transform 0.2s ease;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.2s ease;
 }
 
-.home-button a:hover {
-  transform: scale(1.05);
+.home-link:hover {
+  color: #66A5AD;
+  text-decoration: underline;
 }
 
-.home-button svg {
-  flex-shrink: 0;
+.home-icon {
+  stroke: #1C3D5A;
+  transition: stroke 0.2s ease;
+}
+
+.home-link:hover .home-icon {
+  stroke: #66A5AD;
 }
