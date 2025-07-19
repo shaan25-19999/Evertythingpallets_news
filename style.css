@@ -37,6 +37,17 @@ body {
   color: #e2e8f0;
 }
 
+.top-nav {
+  background: linear-gradient(to right, #EAF6F6, #DDEAF4);
+  padding: 14px 20px;
+  margin: 0;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+  border-bottom: 1px solid #D3E3EC;
+  display: flex;
+  align-items: center;
+}
+
 /* HERO DIVIDER */
 .hero-divider {
   height: 4px;
