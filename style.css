@@ -136,3 +136,19 @@ main {
   background-color: #f9fefb;
   border-top: 1px solid #d1e7dd;
 }
+/* HOME BUTTON */
+.home-button {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.home-button img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) saturate(100%) invert(18%) sepia(9%) saturate(1401%) hue-rotate(157deg) brightness(96%) contrast(88%);
+  transition: transform 0.2s ease;
+}
+
+.home-button img:hover {
+  transform: scale(1.1);
+}
