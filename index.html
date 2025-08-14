@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Peltra • News & Updates</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/news.css">
 </head>
 <body>
 
@@ -14,7 +14,7 @@
     <a id="breakingLink" href="#" target="_blank" rel="noopener">Latest update</a>
   </div>
 
-  <!-- Header (reuse your existing global nav if you want) -->
+  <!-- Header -->
   <header class="site-header">
     <div class="hero">
       <img src="assets/Logo.png" alt="Peltra" class="hero-logo">
@@ -44,7 +44,11 @@
             <option value="dateDesc">Newest first</option>
             <option value="dateAsc">Oldest first</option>
             <option value="mostViewed">Most viewed</option>
-    
+          </select>
+        </div>
+      </div>
+    </section>
+
     <!-- Feed -->
     <section id="newsContainer" class="feed"></section>
 
@@ -58,6 +62,6 @@
     <p>© 2025 Peltra. Built for the biomass industry.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/news.js"></script>
 </body>
 </html>
