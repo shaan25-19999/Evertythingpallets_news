@@ -2,40 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EverythingPallets News</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peltra • News & Updates</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="news-header">
-    <div class="container">
-      <h1 class="title">Biomass Industry News & Updates</h1>
-      <p class="subtitle">Stay informed with the latest in pellet markets, policies, and trends.</p>
+  <!-- Breaking news ticker (mobile + desktop) -->
+  <div id="breakingBar" class="breaking hidden">
+    <span class="blink">●</span>
+    <a id="breakingLink" href="#" target="_blank" rel="noopener">Latest update</a>
+  </div>
+
+  <!-- Header (reuse your existing global nav if you want) -->
+  <header class="site-header">
+    <div class="hero">
+      <img src="assets/Logo.png" alt="Peltra" class="hero-logo">
+      <h1 class="hero-title">Biomass Industry News</h1>
+      <p class="hero-subtitle">Curated policy, market and industry updates with quick <strong>Peltra Impact</strong> notes.</p>
     </div>
   </header>
-  
-  <!-- HOME BUTTON -->
-<div class="home-button">
-  <a href="/" class="home-link" title="Back to Home">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#1C3D5A" stroke-width="2">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M3 9.75L12 3l9 6.75v9a1.5 1.5 0 01-1.5 1.5h-3.75a.75.75 0 01-.75-.75v-3.75a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V19.5a.75.75 0 01-.75.75H4.5A1.5 1.5 0 013 18.75v-9z"/>
-    </svg>
-    <span>Home</span>
-  </a>
-</div>
 
-  <!-- DIVIDER LINE -->
-  <div class="hero-divider"></div>
+  <nav>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="market.html">Market Prices</a>
+      <a href="news.html" aria-current="page">News</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 
-  <!-- MAIN CONTENT -->
-  <main id="news-container"></main>
+  <main>
+    <!-- Controls -->
+    <section class="controls">
+      <div class="row">
+        <div class="chips" id="tagChips"></div>
 
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <p>© 2025 EverythingPallets · Built with purpose · Biomass is the future.</p>
+        <div class="controls-right">
+          <input id="searchBox" class="search" type="search" placeholder="Search news…" />
+          <select id="sortSelect" class="select">
+            <option value="dateDesc">Newest first</option>
+            <option value="dateAsc">Oldest first</option>
+            <option value="mostViewed">Most viewed</option>
+          </select>
+          <label class="near-me">
+            <input id="nearMeToggle" type="checkbox" />
+            <span>News near me</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feed -->
+    <section id="newsContainer" class="feed"></section>
+
+    <!-- Fallback / errors -->
+    <div id="newsEmpty" class="empty hidden">No news match your filters.</div>
+    <div id="newsError" class="error hidden">⚠️ Unable to load news. Please try again later.</div>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Peltra. Built for the biomass industry.</p>
   </footer>
 
   <script src="script.js"></script>
