@@ -1,5 +1,5 @@
 // Path to your static JSON
-const NEWS_PATH = "data/News.json";
+const NEWS_PATH = "News.json";
 
 // Remember user's state from your market page, if you already save it
 const getPreferredState = () => localStorage.getItem("preferredState") || "";
