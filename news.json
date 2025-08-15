@@ -1,37 +1,142 @@
 [
   {
-    "title": "India Sets 7% Biomass Pellets Blend Target by 2025‑26",
+    "title": "India Sets 7% Biomass Pellets Blend Target by 2025-26",
     "date": "July 18, 2025",
-    "summary": "India aims to co‑fire biomass pellets at 7 % blend in coal power plants by FY 2025‑26 under revised policy guidelines.",
+    "summary": "India aims to co-fire biomass pellets at 7 % blend in coal power plants by FY 2025-26 under revised policy guidelines.",
     "link": "https://energynews.pro/en/india-biomass-gains-momentum-in-energy-production/",
     "tag": "Policy"
   },
   {
     "title": "India's Biomass Demand Outpaces Supply by Over 90%",
     "date": "June 30, 2025",
-    "summary": "Daily demand for biomass in India is around 100,000 tonnes, while supply barely reaches 7,000 tonnes—highlighting a severe gap.",
+    "summary": "Daily demand for biomass in India is around 100,000 tonnes, while supply barely reaches 7,000 tonnes—highlighting a severe gap.",
     "link": "https://www.energetica-india.net/news/indias-biomass-push-sees-soaring-demand-but-supply-lags-at-7000-tonnes",
     "tag": "Market"
   },
   {
     "title": "MNRE Revises Financial Assistance for Pellet Units",
     "date": "June 27, 2025",
-    "summary": "MNRE has updated the central financial assistance rates for biomass pellet manufacturing under the National Bio‑Energy Programme.",
+    "summary": "MNRE has updated the central financial assistance rates for biomass pellet manufacturing under the National Bio-Energy Programme.",
     "link": "https://mnre.gov.in/en/notice/revision-of-rate-of-central-financial-assistance-cfa-for-biomass-pellet-manufacturing-units-under-biomass-programme-component-of-national-bioenergy-programmenbp-reg/",
     "tag": "Policy"
   },
   {
-    "title": "India Wood Pellet Market Valued at USD 457.6M in 2024",
+    "title": "India Wood Pellet Market Valued at USD 457.6M in 2024",
     "date": "July 7, 2025",
-    "summary": "According to IMARC Group, India's wood pellet market reached USD 457.6 million in 2024 and is projected to grow steadily.",
+    "summary": "According to IMARC Group, India's wood pellet market reached USD 457.6 million in 2024 and is projected to grow steadily.",
     "link": "https://www.openpr.com/news/4093630/india-wood-pellet-market-outlook-2025-size-industry-share",
     "tag": "Industry"
   },
   {
-    "title": "Global Biomass Pellets Market to Hit USD 14.9B in 2025",
+    "title": "Global Biomass Pellets Market to Hit USD 14.9B in 2025",
     "date": "June 30, 2025",
-    "summary": "A new report forecasts the global biomass pellets market will reach USD 14.9 billion in 2025, with over 10 % CAGR through 2033.",
+    "summary": "A new report forecasts the global biomass pellets market will reach USD 14.9 billion in 2025, with over 10 % CAGR through 2033.",
     "link": "https://www.globalgrowthinsights.com/market-reports/biomass-pellets-market-110208",
+    "tag": "Industry"
+  },
+  {
+    "title": "State Power Utilities Sign MoUs for Biomass Pellet Procurement",
+    "date": "May 25, 2025",
+    "summary": "Multiple state utilities have signed agreements with biomass suppliers to meet the new co-firing mandates.",
+    "link": "https://example.com/state-power-biomass",
+    "tag": "Market"
+  },
+  {
+    "title": "Technology Breakthrough Boosts Pellet Energy Density by 15%",
+    "date": "May 10, 2025",
+    "summary": "Researchers have developed a pre-treatment process that significantly increases calorific value in biomass pellets.",
+    "link": "https://example.com/pellet-energy-density",
+    "tag": "Technology"
+  },
+  {
+    "title": "Punjab Announces Subsidy Scheme for Biomass Boilers",
+    "date": "April 20, 2025",
+    "summary": "Punjab government to provide capital subsidies to industries installing biomass boilers to replace coal.",
+    "link": "https://example.com/punjab-biomass-subsidy",
+    "tag": "Policy"
+  },
+  {
+    "title": "Private Equity Firms Eye Investments in Pellet Manufacturing",
+    "date": "April 5, 2025",
+    "summary": "PE investors see biomass as a scalable and profitable clean energy play in India's industrial sector.",
+    "link": "https://example.com/pe-biomass-investments",
+    "tag": "Market"
+  },
+  {
+    "title": "Biomass Exports from India Rise 22% in FY25",
+    "date": "March 28, 2025",
+    "summary": "Exports of biomass pellets to Europe and Asia increased sharply due to strong winter demand.",
+    "link": "https://example.com/india-biomass-exports",
+    "tag": "Market"
+  },
+  {
+    "title": "New BIS Standards for Pellet Quality Come into Effect",
+    "date": "March 15, 2025",
+    "summary": "The Bureau of Indian Standards has made pellet quality certification mandatory for all suppliers.",
+    "link": "https://example.com/bis-pellet-standards",
+    "tag": "Policy"
+  },
+  {
+    "title": "Waste-to-Energy Plants Adopting Biomass Co-Firing",
+    "date": "February 27, 2025",
+    "summary": "Several waste-to-energy operators have started blending biomass pellets to improve efficiency.",
+    "link": "https://example.com/wte-biomass",
+    "tag": "Industry"
+  },
+  {
+    "title": "IIT-Delhi Develops Low-Ash Pelletization Process",
+    "date": "February 12, 2025",
+    "summary": "A new method reduces ash content in pellets by 25%, lowering boiler maintenance costs.",
+    "link": "https://example.com/iit-delhi-pellets",
+    "tag": "Technology"
+  },
+  {
+    "title": "Rajasthan Industrial Clusters Shift to Biomass",
+    "date": "January 25, 2025",
+    "summary": "Several industrial hubs in Rajasthan have transitioned from coal to biomass fuel for heating.",
+    "link": "https://example.com/rajasthan-biomass-shift",
+    "tag": "Market"
+  },
+  {
+    "title": "Global Pellet Prices Hit 3-Year High",
+    "date": "January 10, 2025",
+    "summary": "International pellet prices surged amid tight supply and rising demand in Asia and Europe.",
+    "link": "https://example.com/global-pellet-prices",
+    "tag": "Market"
+  },
+  {
+    "title": "MNRE Launches Bio-Energy Startup Challenge",
+    "date": "December 15, 2024",
+    "summary": "The Ministry has announced funding support for startups working in the biomass and bio-energy sectors.",
+    "link": "https://example.com/mnre-startup-challenge",
+    "tag": "Policy"
+  },
+  {
+    "title": "Farmers in Haryana Benefit from Paddy Straw Pellet Sales",
+    "date": "November 30, 2024",
+    "summary": "New market linkages allow farmers to earn from selling agricultural residue for pellet manufacturing.",
+    "link": "https://example.com/haryana-paddy-straw",
+    "tag": "Industry"
+  },
+  {
+    "title": "Coastal States Eye Biomass Imports to Meet Energy Needs",
+    "date": "November 12, 2024",
+    "summary": "Ports in Gujarat and Tamil Nadu see increasing pellet import activity for local industry use.",
+    "link": "https://example.com/india-biomass-imports",
+    "tag": "Market"
+  },
+  {
+    "title": "Pellet Producers Urge GST Reduction to 5%",
+    "date": "October 25, 2024",
+    "summary": "Industry bodies have petitioned the government to lower GST rates to make biomass more competitive.",
+    "link": "https://example.com/pellet-gst-reduction",
+    "tag": "Policy"
+  },
+  {
+    "title": "New Biomass Logistics Hubs Open in NCR",
+    "date": "October 10, 2024",
+    "summary": "Peltra and other firms have opened new logistics hubs to streamline pellet distribution.",
+    "link": "https://example.com/ncr-biomass-hubs",
     "tag": "Industry"
   }
 ]
